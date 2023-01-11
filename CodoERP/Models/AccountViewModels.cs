@@ -81,7 +81,6 @@ namespace CodoERP.Models
         public string ConfirmPassword { get; set; }
 
         //Add user to Role
-        //5
         public string RoleName { get; set; }
     }
 

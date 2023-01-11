@@ -184,7 +184,6 @@ namespace CodoERP.Controllers
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {    //Add user to Role
-                     //4
 
                     result = await UserManager.AddToRoleAsync(user.Id, model.RoleName);
 

@@ -6,9 +6,6 @@ using System.Web;
 namespace CodoERP.Models
 {
     public class RoleViewModel
-    {//Create a role with asp.net identity
-        //3
-        // Debug sequence 1
         public RoleViewModel() { }
 
         public RoleViewModel(ApplicationRole role)

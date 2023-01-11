@@ -35,7 +35,7 @@ namespace CodoERP.Models
 
     public class ApplicationRole : IdentityRole
     {//Create Role with ASP.NET Identity
-     //1
+        //1
      //Debug Sequence 3
         public ApplicationRole() : base() { }
         public ApplicationRole(string roleName) : base(roleName) { }
